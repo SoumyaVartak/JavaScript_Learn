@@ -21,3 +21,28 @@ let someNumber = 33
 let strnum = String(someNumber)
 console.log(strnum)
 console.log(typeof strnum)
+
+
+//operations
+
+let value = 3
+let negValue = -value
+
+console.log(negValue)
+
+
+let str1 = "hello"
+let str2 = "hitesh"
+let str3 = str1 + str2 
+console.log(str3)
+
+console.log("1" + 2)//12
+console.log("1" + 2+2)//122
+console.log(1 + 2+ "2");//32
+console.log(true);
+
+
+let gameCounter = 100
+gameCounter++; // postfix 
+++gameCounter// prefix 
+console.log(gameCounter)
