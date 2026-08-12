@@ -20,3 +20,39 @@ let myObj ={ name: "soumya", age:22} // object
  }
 
  console.log(typeof id);
+
+
+
+
+
+
+ /// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ // Stack(Primitive type is used ) , Heap(Non Primitive is used)
+ // Stack creates a copy 
+ // Heap creates a original references
+
+
+ //stack 
+ let myname = "soumya"
+ let anothername = myname
+ console.log(anothername)
+ anothername = "varrtak"
+  console.log(anothername)
+   console.log(myname)
+
+// if any changes in primitive type changes will not happen to both
+   // heap
+let userOne = {
+    email:"usergmail.com",
+    upiid:"soumya@hdfc"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user2@gmail.com"
+
+
+console.log(userOne);
+
+// if any changes in non primitive type changes will  happen to both
