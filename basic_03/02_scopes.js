@@ -28,7 +28,7 @@ one()
 
 
 /// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// addone(4) this will run 
+// addone(4) this will run oo+
 function addone(num){  // function
     return num +1;
 

@@ -61,3 +61,4 @@ function returnSecondValue(getarray){
     return  getarray[1]
 }
 console.log(returnSecondValue(myneewArray))
+
