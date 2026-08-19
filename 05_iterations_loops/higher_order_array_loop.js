@@ -15,7 +15,7 @@ for (const str of ste) {
 
 const map = new Map()
 map.set('IN','India')
-map.set('usa','united states')
+map.set('usa','united states')+
 map.set('fr','france')
 map.set('IN','India')
 console.log(map);
